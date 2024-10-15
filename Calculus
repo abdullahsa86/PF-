@@ -1,0 +1,26 @@
+include<iostream>
+
+using namespace std;
+
+int main() { 
+
+// show the variables
+double num1 num2
+char operation;
+//allow the user to enter any 2 numbers
+cout<<"enter the first number: ";
+cin >> num1;
+cout <<"enter the second number: ";
+cin>> num2;
+// allow the user to use any operation
+cout<<"enter an operation (+,-,*,/): ";
+cin >> operation;
+
+// perform chosen operation switch(operation)
+{
+  case '+:'
+  cout<<"Result:" << 
+  num1+num2 << endl;
+  break;
+
+}
